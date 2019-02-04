@@ -1,6 +1,6 @@
 
 body {
-    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/FBzhkcf/music-symbols-animated-background_e1azi9b7g__F0000.png");
+    background-image: url("http://images4.fanpop.com/image/photos/24100000/music-notes-wallpaper-music-24113988-1600-1200.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 100%;
@@ -20,7 +20,7 @@ body {
 }
 
 #searchText {
-    color: white;
+    color: aqua;
     margin-left: 600px;
 }
 

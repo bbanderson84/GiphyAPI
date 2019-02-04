@@ -27,14 +27,11 @@ var topics = ["music", "guitars", "bands", "songs", "albums", "rock & roll", "tr
     createButtons();
 
 
-
+///function that calls ajax , creates the different gifs corresponding to which button is clicked and displays them on the page
     $(document).on("click", "button", function () { 
 
 
     $("#gifSection").empty();
-
-
-    // $("button").on("click", function () {
 
         var music = $(this).attr("data-name");
 
@@ -78,7 +75,7 @@ var topics = ["music", "guitars", "bands", "songs", "albums", "rock & roll", "tr
             }
         });
     });
-
+    // when the gif is clicked, starts the animation of the gif and stops it once its clicked again.
     $(document).on("click", ".gifImage", function () {
 
 
@@ -100,7 +97,7 @@ var topics = ["music", "guitars", "bands", "songs", "albums", "rock & roll", "tr
     });
 
 
-
+// function that adds buttons that user searches, and calls the function to create that button
  $("#addGiph").on("click", function(event) { 
 
     event.preventDefault();
