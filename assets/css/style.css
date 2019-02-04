@@ -1,0 +1,39 @@
+
+body {
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/FBzhkcf/music-symbols-animated-background_e1azi9b7g__F0000.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+
+.jumbotron {
+    width: 60%;
+    margin-left: 300px;
+}
+
+#title {
+    text-align: center;
+}
+
+#directions {
+    text-align: center;
+}
+
+#searchText {
+    color: blue;
+    margin-left: 600px;
+}
+
+.container {
+    margin-left: 300px;
+
+}
+
+#buttonGroup {
+    margin-left: 120px;
+
+}
+
+#musicSearch {
+    margin-top: 25px;
+}
